@@ -1,5 +1,4 @@
 class Shop < ApplicationRecord
-	include ShopifyApp::SessionStorage
   	has_many :products
 
   	def self.validate_shop(shopify_shop)

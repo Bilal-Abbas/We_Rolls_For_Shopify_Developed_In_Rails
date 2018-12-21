@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
  gem 'devise'
 # Rollify gem
  gem 'rolify'
+# Shopify_Api gem
+ gem 'shopify_api'
