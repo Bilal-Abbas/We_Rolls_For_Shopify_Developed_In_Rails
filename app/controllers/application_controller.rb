@@ -14,7 +14,7 @@ class ApplicationController < ActionController::Base
 
 
   def shopify_app_settings
-  	shop_url = "https://0836388da714550d1c6a8f51bf848be8:65eaa1e76d3000b06dc38621ef8636df@coordinates-collection.myshopify.com/admin"
+  	shop_url = ""
   	ShopifyAPI::Base.site = shop_url
   	@shopify_shop = ShopifyAPI::Shop.current
   	@shop = Shop.validate_shop(@shopify_shop)
