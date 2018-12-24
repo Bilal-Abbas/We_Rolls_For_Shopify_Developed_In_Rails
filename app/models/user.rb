@@ -5,8 +5,8 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 	
-    def store_admin?
-	  	if has_role? :store_admin
+    def super_admin?
+	  	if has_role? :super_admin
 	  		return true
 	  	else
 	  		return false

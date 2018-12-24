@@ -58,3 +58,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
  gem 'rolify'
 # Shopify_Api gem
  gem 'shopify_api'
+# Sidekiq gem for loading data
+ gem 'sidekiq', '~> 5.0', '>= 5.0.5'
